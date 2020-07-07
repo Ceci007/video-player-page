@@ -25,6 +25,8 @@ html {
     display: grid;
     grid-template-columns: repeat(3, minmax(max-content, 1fr));
     grid-template-rows: repeat(6, min-content);
+    width: 80%;
+    margin: 0 auto;
 }
 
 .navbar {
@@ -137,4 +139,48 @@ html {
 
 .not-clickable {
   cursor: not-allowed;
+  color: var(--color-secondary);
+}
+
+.language {
+    grid-row: 2 / 3;
+    grid-column: 1 / 4;
+    border: 0.2rem solid var(--color-secondary);
+    margin-top: 2rem;
+}
+
+.language-top {
+    display: flex;
+    align-self: center;
+    background-image: linear-gradient(to right bottom, var(--color-secondary), var(--color-secondary-gradient));
+    padding: 1.5rem 2rem;
+    font-size: 1.4rem;
+    justify-content: space-between;
+    color: white;
+}
+
+.question-box {
+    display: flex;
+}
+
+.question-box i {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.language-bottom {
+    display: flex;
+    align-self: center;
+    padding: 1.5rem 2rem;
+    font-size: 1.4rem;
+    justify-content: space-between;
+}
+
+.language-top i {
+    font-size: 1.6rem;
+}
+
+.language-bottom a {
+    text-decoration: none;
+    color: var(--color-secondary);
 }
