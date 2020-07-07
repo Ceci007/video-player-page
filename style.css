@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: #e1e1e1;
 }
 
 :root {
@@ -40,6 +41,7 @@ html {
     justify-content: center;
     padding: 1rem 2rem;
     box-shadow: 0 0 4rem rgba(0,0,0, 0.3);
+    background-color: white;
 }
 
 .left, .middle, .right {
@@ -174,6 +176,7 @@ html {
     padding: 1.5rem 2rem;
     font-size: 1.4rem;
     justify-content: space-between;
+    background-color: white;
 }
 
 .language-top i {
@@ -186,5 +189,158 @@ html {
 }
 
 .screen{
-  background-image: url(https://archive.vn/Bss88/17221bb7ea7ea2b8148e38157ba9f1a64b6dd251.png)
+  background-image: url(https://archive.vn/Bss88/17221bb7ea7ea2b8148e38157ba9f1a64b6dd251.png);
+  grid-row: 3 / 4;
+  grid-column: 1 / 3;
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: -1;
+  margin-top: 3rem;
+}
+
+.screen-text {
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    font-size: 1.6rem;
+    text-align: center;
+    grid-column: 1 / 2;
+}
+
+.screen-text a {
+    color: white;
+}
+
+.video-line {
+    height: 0.5rem;
+    width: 95%;
+    background-color: red;
+    position: absolute;
+    bottom: 6rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 0;
+    border-style: none;
+    padding: 0;
+    margin: 0 auto;
+    z-index: 5;
+    overflow: hidden;
+}
+
+.video-icons {
+    grid-row: 4 / 5;
+    grid-column: 1 / 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem;
+    margin-top: -5rem;
+    color: white;
+    font-size: 1.6rem;
+}
+
+.left-icons i {
+    margin-right: 2rem;
+}
+
+.right-icons i {
+    margin-left: 2rem;
+}
+
+.video-info {
+    grid-row: 5 / 6;
+    grid-column: 1 / 3;
+    padding: 2rem;
+    background-color: white;
+    margin-top: 2rem;
+}
+
+.video-info p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+/* */
+.channel-info {
+    position: relative;
+    margin-top: 2rem;
+}
+
+.subscribe-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+
+.subscribe-left {
+    display: flex;
+    font-size: 1.6rem;
+}
+
+.subscribe-img {
+    width: 6rem;
+    height: 6rem;
+    margin-right: 2rem;
+}
+
+.subscribe-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#subscribe-anchor {
+    text-decoration: none;
+    color: rgba(0,0,0, 0.8);
+    font-weight: 700;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.subscribe-button {
+    border-radius: 0.6rem;
+    overflow: hidden;
+    border: 0.2rem solid red;
+}
+
+.subscribe-button button {
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+}
+
+.subscribe-button i {
+    margin-right: 1rem;
+}
+
+.subscribe-button span {
+    padding: 0 1rem;
+}
+
+.subcribe-right p {
+    font-size: 3rem;
+    margin: 1rem 0;
+    margin-top: 5rem;
+}
+
+
+.view-line {
+    height: 0.5rem;
+    width: 95%;
+    background-color: var(--grey-1);
+    position: absolute;
+    bottom: 2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 0;
+    border-style: none;
+    padding: 0;
+    margin: 0 auto;
+    z-index: 5;
+    overflow: hidden;
 }
