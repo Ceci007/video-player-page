@@ -28,6 +28,7 @@ html {
     grid-template-rows: repeat(6, min-content);
     width: 80%;
     margin: 0 auto;
+    border: 0.2rem solid gray;
 }
 
 .navbar {
@@ -273,17 +274,19 @@ html {
     display: flex;
     justify-content: space-between;
     padding: 0 3rem;
+    position: relative;
 }
 
 .subscribe-left {
     display: flex;
     font-size: 1.6rem;
+    margin-left: -4rem;
 }
 
 .subscribe-img {
     width: 6rem;
     height: 6rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 
 .subscribe-img img {
@@ -298,6 +301,8 @@ html {
     font-weight: 700;
     margin-bottom: 1rem;
     display: inline-block;
+    font-size: 1.3rem;
+    letter-spacing: 0.01rem;
 }
 
 .subscribe-button {
@@ -310,8 +315,8 @@ html {
     border: none;
     background-color: red;
     color: white;
-    font-size: 1.4rem;
-    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    padding: 1rem;
 }
 
 .subscribe-button i {
@@ -319,22 +324,25 @@ html {
 }
 
 .subscribe-button span {
-    padding: 0 1rem;
+    padding: 1rem;
+    font-size: 1.2rem;
 }
+
 
 .subcribe-right p {
-    font-size: 3rem;
+    font-size: 1.9rem;
     margin: 1rem 0;
     margin-top: 5rem;
+    position: absolute;
+    right: 0;
 }
 
-
 .view-line {
-    height: 0.5rem;
-    width: 95%;
+    height: 0.2rem;
+    width: 100%;
     background-color: var(--grey-1);
     position: absolute;
-    bottom: 2.5rem;
+    bottom: 1.5rem;
     left: 50%;
     transform: translateX(-50%);
     border-width: 0;
@@ -343,4 +351,29 @@ html {
     margin: 0 auto;
     z-index: 5;
     overflow: hidden;
+}
+
+.blue-span {
+  position: absolute;
+  width: 20rem;
+  z-index: 6;
+  background-color: var(--color-secondary);
+  height: 1rem;
+  right: 0;
+}
+
+.sharing-section {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+.left-sharing {
+  display: flex;
+}
+
+.left-sharing i {
+  font-size: 1.5rem;
+}
+.left-sharing i:not(:first-child){
+  margin: 0 0.5rem 0 2rem;
 }
