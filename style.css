@@ -26,7 +26,7 @@ html {
 /*---------------- Container Styles -----------------*/
 .container {
     display: grid;
-    grid-template-columns: repeat(3, minmax(max-content, 1fr));
+    grid-template-columns: repeat(2, minmax(max-content, 1fr)) 40rem;
     grid-template-rows: repeat(7, min-content);
     width: 80%;
     margin: 0 auto;
@@ -475,30 +475,107 @@ html {
   .aside-section {
     grid-row: 3 / 9;
     grid-column: 3 / 4;
-    margin: 3rem 0 3rem 1.5rem;
-    background-color: white;
-    width: 35rem;
+    width: 100%;
+    margin: 1rem;
+    margin-top: 3rem;
+    margin-left: 0;
   }
 
   .upnext {
     padding: 1rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
+    grid-template-rows: repeat(12, min-content);
+    background-color: white;
+    margin-left: 1rem;
   }
 
   .side-bar-top{
     grid-column: 1 / 3;
+    grid-row: 1 / 2;
     display: flex;
     justify-content: space-between;
     margin-bottom: 1rem;
     font-size: 1.2rem;
   }
 
-  .side-box {
+  .side-box-1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     position: relative;
+    grid-row: 2 / 3;
+  }
+
+  .side-box-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    grid-row: 3 / 4;
+    margin-bottom: 2rem;
+  }
+
+  .side-box-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    grid-row: 4 / 5;
+    margin-bottom: 2rem;
+  }
+
+  .side-box-4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    grid-row: 5 / 6;
+    margin-bottom: 2rem;
+  }
+
+  .side-box-5 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    grid-row: 6 / 7;
+    margin-bottom: 2rem;
+  }
+
+  .side-box-6 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    grid-row: 7 / 8;
+    margin-bottom: 2rem;
+  }
+
+  .side-box-7 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    grid-row: 8 / 9;
+    margin-bottom: 2rem;
+  }
+
+  .side-box-8 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    grid-row: 9 / 10;
+    margin-bottom: 2rem;
+  }
+
+  .side-box-9 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    grid-row: 10 / 11;
+    margin-bottom: 2rem;
+  }
+
+  .side-box-10 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    grid-row: 11 / 12;
+    margin-bottom: 2rem;
   }
 
   .side-top-left h3 {
@@ -559,13 +636,19 @@ html {
     justify-content: center;
   }
 
-  .side-box:before {
-    content: "";
-    width: 33rem;
+  .side-box-1 span {
+      width: 98%;
+      grid-column: 1 / 3;
+      height: 0.1rem;
+      background-color: lightgrey;
+      margin: 1.5rem 0;
+  }
+  
+  .aside-bottom-line {
+    width: 98%;
+    grid-column: 1 / 3;
     height: 0.1rem;
-    position: absolute;
-    bottom: -1rem;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: black;
+    background-color: lightgrey;
+    margin-bottom: -1rem;
+    margin-top: 2rem;
   }
