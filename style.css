@@ -97,6 +97,7 @@ html {
     width: 60rem;
     border-radius: 0.6rem;
     overflow: hidden;
+    margin-right: 3rem;
 }
 
 .search-box input {
@@ -461,7 +462,7 @@ html {
     border-top-color: var(--color-secondary);
     animation: spinner 0.7s linear infinite;
   }
-  
+
   @keyframes spinner {
     to {
       transform: rotate(360deg);
