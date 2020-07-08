@@ -41,7 +41,7 @@ html {
     display: grid;
     grid-template-columns: repeat(3, minmax(max-content, 1fr));
     grid-template-rows: 8rem;
-    align-items: space-between;
+    align-items: center;
     justify-content: center;
     padding: 1rem 2rem;
     box-shadow: 0 0 4rem rgba(0,0,0, 0.3);
@@ -676,7 +676,7 @@ html {
      color: grey;
  }
 
- .footer-button button {
+ .footer-button button, .history-button {
      margin-right: 2rem;
      padding: 0.5rem 1rem;
      border: 0.1rem solid lightgrey;
@@ -686,10 +686,6 @@ html {
  .footer-button button i {
      margin: 0.7rem;
      font-size: 1.6rem;
- }
-
- .footer-button a button:focus {
-     outline: none;
  }
 
  .footer-line {
