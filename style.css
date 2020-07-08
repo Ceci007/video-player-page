@@ -69,6 +69,10 @@ html {
     margin-right: 4rem;
 }
 
+.fa-times {
+    cursor: pointer;
+}
+
 .middle {
     justify-self: center;
 }
@@ -659,7 +663,7 @@ html {
      background-color: white;
      height: 20rem;
      width: 100%;
-     margin-top: 15rem;
+     margin-top: 20rem;
      margin-bottom: 8rem;
      padding: 1rem 3rem;
      position: relative;
