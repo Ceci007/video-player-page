@@ -21,6 +21,3 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 - Inspiration
 Appreciate Microverse Team for pushing me to this amazing opportunity and embarking me on this incredible journey that has just begun.
-
-
-
