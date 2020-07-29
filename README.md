@@ -1,6 +1,6 @@
 # Youtube Clone's Single Video Route
 
-A practice to test our code level by creating a clone of a Youtube single page route with the nav-bar, the side bar video's recomendations, a footer and the <a> tags to the actual Youtube routes. 
+A practice to test our code level by creating a clone of a Youtube single page route with the nav-bar, the sidebar video's recommendations, a footer, and the <a> tags to the actual Youtube routes. 
   
 ![screenshot](./app_screenshot.png) 
 
